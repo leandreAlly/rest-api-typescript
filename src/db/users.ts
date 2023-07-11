@@ -21,7 +21,6 @@ const userSchema = new Schema({
     },
     sessionToken: {
       type: String,
-      required: true,
       select: false,
     },
   },

@@ -4,6 +4,7 @@ import { authentication, random } from "../helpers";
 
 export const register = async (req: express.Request, res: express.Response) => {
   try {
+    console.log("hit endpoint");
     const { email, username, password } = req.body;
 
     if (!email || !username || !password)
