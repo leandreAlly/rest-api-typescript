@@ -19,5 +19,5 @@ export const deleteUser = async (
 
   return res
     .status(200)
-    .json({ deleteUser, message: "User deleted successfull." });
+    .json({ deletedUser, message: "User deleted successfull." });
 };

@@ -35,7 +35,6 @@ export const login = async (req: express.Request, res: express.Response) => {
 
 export const register = async (req: express.Request, res: express.Response) => {
   try {
-    console.log("hit endpoint");
     const { email, username, password } = req.body;
 
     if (!email || !username || !password)
